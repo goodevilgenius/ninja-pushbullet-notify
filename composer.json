@@ -1,0 +1,5 @@
+{
+    "require": {
+        "ivkos/pushbullet": "2.*"
+    }
+}
