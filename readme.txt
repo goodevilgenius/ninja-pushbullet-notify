@@ -9,14 +9,14 @@ Stable tag: trunk
 License: MIT
 License URI: http://directory.fsf.org/wiki/License:Expat
 
-This plugin will allow you to send a notification via Pushbullet when using the
-Ninja Forms plugin. If you are not using Ninja Forms, this plugin is useless.
+This plugin lets you to send a notification via Pushbullet when using the 
+Ninja Forms plugin.
 
 == Description ==
 
 This plugin will allow you to send a notification via Pushbullet when using the
 [Ninja Forms][nf] plugin. If you are not using Ninja Forms, this plugin is
-useless. 
+useless.
 
 [nf]: https://wordpress.org/plugins/ninja-forms/
 
@@ -30,7 +30,15 @@ useless.
 
 = How do I request new features? =
 
-Request new features on [the GitHub page](https://github.com/goodevilgenius/ninja-pushbullet-notify/issues).
+Request new features on the [GitHub page][gh-issues].
+
+= Are there known issues? =
+
+Up-to-date issues are on the [GitHub page][gh-issues].
+
+Currently, there is an issue when pushing a link from a multi-site install that uses domain mapping.
+
+[gh-issues]: https://github.com/goodevilgenius/ninja-pushbullet-notify/issues
 
 == Screenshots ==
 
@@ -39,6 +47,8 @@ Request new features on [the GitHub page](https://github.com/goodevilgenius/ninj
 
 == Changelog ==
 
-= 0.1 =
-* It works
+= 0.0.2 =
+Updated Plugin description with known issues
 
+= 0.0.1 =
+* It works

@@ -2,6 +2,13 @@
 
 require_once(plugin_dir_path( __FILE__ ) . '/vendor/autoload.php');
 
+/**
+ * Class for our pushbullet notification type.
+ *
+ * @copyright   Copyright (c) 2015, Dan Jones
+ * @license     MIT
+ * @since       0.0.1
+*/
 class NF_DJ_Notification_Pushbullet extends NF_Notification_Base_Type {
     function __construct() {
         $this->name = __( 'Pushbullet', 'ninja-pushbullet-notify' );
@@ -11,7 +18,7 @@ class NF_DJ_Notification_Pushbullet extends NF_Notification_Base_Type {
      * Output our edit screen
      *
      * @access public
-     * @since 2.8
+     * @since 0.0.1
      * @return void
      */
     public function edit_screen( $id = '' ) {
@@ -52,7 +59,7 @@ class NF_DJ_Notification_Pushbullet extends NF_Notification_Base_Type {
 	 * Process our Push notification
 	 *
 	 * @access public
-	 * @since 2.8
+	 * @since 0.0.1
 	 * @return void
 	 */
 	public function process( $id ) {
@@ -88,7 +95,7 @@ class NF_DJ_Notification_Pushbullet extends NF_Notification_Base_Type {
 	 * Run shortcodes and return the result.
 	 *
 	 * @access public
-	 * @since 2.8
+	 * @since 0.0.1
 	 * @return array $setting
 	 */
 	public function process_setting( $id, $setting, $html = 1 ) {
